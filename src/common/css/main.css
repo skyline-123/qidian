@@ -1,0 +1,14 @@
+	body {
+		background-color: #F5F6F9;
+	}
+    #app {
+    	font-size: 12px;
+    	font-family: 'PingFang SC', 'STHeitiSC-Light','Helvetica-Light',arial,sans-serif;
+    }
+    [data-dpr="2"] #app {
+        font-size: 24px;
+    }
+
+    [data-dpr="3"] #app {
+        font-size: 36px;
+    }
