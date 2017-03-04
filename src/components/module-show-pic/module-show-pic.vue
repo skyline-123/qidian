@@ -94,4 +94,56 @@
     color: #868591;
     font-weight: 400;
   }
+
+  .show-pic ul li.top:before {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -0.5625rem;
+    left: -0.671875rem;
+    width: 1.5625rem;
+    height: 0.34375rem;
+    padding-top: 1rem;
+    text-align: center;
+    background: #848992;
+    color: #fff;
+    font-size: 0.3125rem;
+    font-weight: 700;
+    content: '';
+    z-index: 30;
+    text-transform: uppercase;
+  }
+  .show-pic ul li.top:nth-child(1):before {
+    content: 'top1';
+    background: #E92737;
+  }
+  .show-pic ul li.top:nth-child(2):before {
+    content: 'top2';
+    background: #EC4C25;
+  }
+  .show-pic ul li.top:nth-child(3):before {
+    content: 'top3';
+    background: #EDBC1D;
+  }
+  .show-pic ul li.top:nth-child(4):before {
+    content: 'top4';
+  }
+  .show-pic ul li.top:nth-child(5):before {
+    content: 'top5';
+  }
+  .show-pic ul li.top:nth-child(6):before {
+    content: 'top6';
+  }
+  .show-pic ul li.top:nth-child(7):before {
+    content: 'top7';
+  }
+  .show-pic ul li.top:nth-child(8):before {
+    content: 'top8';
+  }
+  .show-pic ul li.top:nth-child(9):before {
+    content: 'top9';
+  }
+  .show-pic ul li.top:nth-child(10):before {
+    content: 'top10';
+  }
 </style>
