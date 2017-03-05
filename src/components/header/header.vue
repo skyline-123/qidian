@@ -43,20 +43,9 @@
   export default {
     data () {
       return {
-        keyword: ['战歌之王', '超魔构筑师', '无敌天下', '网络神豪', '圣墟'],
+        keyword: [],
         isSearchInfo: false,
-        searchTags: [
-          {name: '我真不是开玩笑'},
-          {name: '超级传奇商店'},
-          {name: '料理王'},
-          {name: '悟空看私聊'},
-          {name: '怪物乐园'},
-          {name: '今宋'},
-          {name: '盗天仙途'},
-          {name: '真理大帝'},
-          {name: '法神降临'},
-          {name: '杀神永生'}
-        ],
+        searchTags: [],
         navigations: []
       }
     },
@@ -77,12 +66,25 @@
       }
     },
     created () {
+      this.keyword = ['战歌之王', '超魔构筑师', '无敌天下', '网络神豪', '圣墟']
       this.navigations = [
         {url: require('./header-nav-1.png'), name: '分类'},
         {url: require('./header-nav-2.png'), name: '排行榜'},
         {url: require('./header-nav-3.png'), name: '免费'},
         {url: require('./header-nav-4.png'), name: '完本'},
         {url: require('./header-nav-5.png'), name: '大神'}
+      ]
+      this.searchTags = [
+        {name: '我真不是开玩笑'},
+        {name: '超级传奇商店'},
+        {name: '料理王'},
+        {name: '悟空看私聊'},
+        {name: '怪物乐园'},
+        {name: '今宋'},
+        {name: '盗天仙途'},
+        {name: '真理大帝'},
+        {name: '法神降临'},
+        {name: '杀神永生'}
       ]
     }
   }
@@ -204,13 +206,14 @@
   	padding-top: 0.078125rem;
   }
   .header .search-info {
-  	position: absolute;
+  	position: fixed;
   	top: 0;
   	left: 0;
   	width: 100%;
   	height: 100%;
   	background: #FFFFFF;
   	z-index: 100;
+    overflow: hidden;
   }
   .header .search-info .search-top {
   	height: 1.34375rem;
