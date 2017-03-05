@@ -21,7 +21,7 @@ flexible.rem = win.rem = rem;
 - vue-awesome-swiper 
 - vue-router
 
-**iscroll**
+### iscroll
 
 用于module-show-pic模块展示横向图片滚动.
 
@@ -32,15 +32,15 @@ flexible.rem = win.rem = rem;
 
 iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用户事件,导致左右滑动的时候并不能上下滑动页面.只能设置为false解决.这是妥协的做法.
 
-**vue**
+### vue
 
 基于vue框架开发,感谢尤大的开发.用vue框架开发效率真的提升很多.当然,需要继续学习对比其他主流框架.
 
-**vue-awesome-swiper**
+### vue-awesome-swiper
 
 适用于header部分轮播图
 
-**vue-router**
+### vue-router
 
 开发到女生页面时有用.
 
