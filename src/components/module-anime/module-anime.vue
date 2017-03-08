@@ -9,6 +9,7 @@
   import title from '../module-title/module-title.vue'
   import pic from '../module-show-pic/module-show-pic.vue'
   export default {
+    name: 'module-anime',
     data () {
       return {
         titleMore: {name: '二次元', more: true},

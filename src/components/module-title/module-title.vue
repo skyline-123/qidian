@@ -7,6 +7,7 @@
 </template>
 <script>
   export default {
+    name: 'module-title',
     props: {
       titleMore: {
         type: Object

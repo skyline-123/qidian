@@ -32,8 +32,10 @@
     </div>
     <div class="h-navigation">
       <div class="nav-single" v-for="nav in navigations">
+        <router-link to="/nav">
         <img :src="nav.url" :alt="nav.name">
         <h2>{{nav.name}}</h2>
+        </router-link>
       </div>
     </div>
   </div>
@@ -41,6 +43,7 @@
 <script>
   import carousel from '../carousel.vue'
   export default {
+    name: 'header',
     data () {
       return {
         keyword: [],

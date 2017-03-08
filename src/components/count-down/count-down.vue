@@ -10,6 +10,7 @@
 <script>
   import {countTime} from './countTime'
   export default {
+    name: 'count-down',
     mounted () {
       countTime(this.$refs.d, this.$refs.h, this.$refs.m, this.$refs.s, '2017/3/14,15:47:11')
     }

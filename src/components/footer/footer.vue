@@ -9,11 +9,13 @@
         <a href="#nowhere">反馈</a>
       </div>
     <div class="copy">copyright © 2002-2017 m.qidian.com</div>
-    </div>  
+    </div>
   </div>
 </template>
 <script>
-  export default {}
+  export default {
+    name: 'footer'
+  }
 </script>
 <style>
   .footer {

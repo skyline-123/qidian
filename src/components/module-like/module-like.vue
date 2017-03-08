@@ -29,6 +29,7 @@
   import title from '../module-title/module-title.vue'
   import vertical from '../module-vertical-pic/module-vertical-pic.vue'
   export default {
+    name: 'module-like',
     data () {
       return {
         titleMoreA: {
@@ -48,9 +49,9 @@
     },
     created () {
       this.verticalPicInfo = [
-        {url: require('./like-1.jpeg'), title: '主神崛起', author: '文抄公', catalogue: '游戏', instalments: '连载', characters: '136.38万字', desc: '一觉醒来穿越成反派？这剧本不对！还抢了人家的妹子？又有一个强势的姐姐？剧本更不对了！居然还有主神空间，诸天万界？我一定是在做梦！吴明淡定地木着脸，继续着征程。'},
-        {url: require('./like-2.jpeg'), title: '超级卡牌系统', author: '黑乎乎的老妖', catalogue: '游戏', instalments: '连载', characters: '78.54万字', desc: '一不小心穿越到了海贼王的世界，肿么办？还好随身带着超级幻想卡牌系统，能抽取各种幻想人物。黑龙波对岩浆果实，八稚女对人妖拳法……（不知道为啥，每次写简介都感觉好无力……）'},
-        {url: require('./like-3.jpeg'), title: '惊悚乐园', author: '三天两觉', catalogue: '游戏', instalments: '连载', characters: '438.53万字', desc: '这是超越维度的游戏。亦是追寻真理的竞逐。未知的封印，鬼神的赌局……数据的抗争，人类的救赎……在那个连接着现实的虚拟世界——意识决定我们，意识选择我们，意识决定了我们的意识。现在，丢掉你的恐惧。丢掉你的私心杂念、疑问和拒信……解放你的思想。欢迎来到，惊悚乐园。《惊悚乐园》实体书现已上架ㄟ(▔,▔)ㄏ'}
+        {url: require('./like-1.jpeg'), title: '主神崛起', author: '文抄公', category: '游戏', instalments: '连载', characters: '136.38万字', desc: '一觉醒来穿越成反派？这剧本不对！还抢了人家的妹子？又有一个强势的姐姐？剧本更不对了！居然还有主神空间，诸天万界？我一定是在做梦！吴明淡定地木着脸，继续着征程。'},
+        {url: require('./like-2.jpeg'), title: '超级卡牌系统', author: '黑乎乎的老妖', category: '游戏', instalments: '连载', characters: '78.54万字', desc: '一不小心穿越到了海贼王的世界，肿么办？还好随身带着超级幻想卡牌系统，能抽取各种幻想人物。黑龙波对岩浆果实，八稚女对人妖拳法……（不知道为啥，每次写简介都感觉好无力……）'},
+        {url: require('./like-3.jpeg'), title: '惊悚乐园', author: '三天两觉', category: '游戏', instalments: '连载', characters: '438.53万字', desc: '这是超越维度的游戏。亦是追寻真理的竞逐。未知的封印，鬼神的赌局……数据的抗争，人类的救赎……在那个连接着现实的虚拟世界——意识决定我们，意识选择我们，意识决定了我们的意识。现在，丢掉你的恐惧。丢掉你的私心杂念、疑问和拒信……解放你的思想。欢迎来到，惊悚乐园。《惊悚乐园》实体书现已上架ㄟ(▔,▔)ㄏ'}
       ]
     }
   }

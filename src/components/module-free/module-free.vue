@@ -12,6 +12,7 @@
   import count from '../count-down/count-down.vue'
   import pic from '../module-show-pic/module-show-pic.vue'
   export default {
+    name: 'module-free',
     data () {
       return {
         titleMore: {

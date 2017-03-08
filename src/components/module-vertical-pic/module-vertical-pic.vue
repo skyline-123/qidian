@@ -10,7 +10,7 @@
           <span class="author">{{info.author}}</span>
         </div>
         <div class="info">
-          <span class="catalogue">{{info.catalogue}}</span>
+          <span class="category">{{info.category}}</span>
           <span class="instalments">{{info.instalments}}</span>
           <span class="characters">{{info.characters}}</span>
         </div>
@@ -20,6 +20,7 @@
 </template>
 <script>
   export default {
+    name: 'module-vertical',
     props: {
       verticalPicInfo: {
         type: Array
@@ -106,7 +107,7 @@
   .module-vertical-pic .info span:nth-child(1) {
     margin-left: 0;
   }
-  .module-vertical-pic .info span.catalogue {
+  .module-vertical-pic .info span.category {
     border: 1px solid #D9D9D9;
     color: #9A9C9E;
   }

@@ -11,6 +11,7 @@
   import title from '../module-title/module-title.vue'
   import pic from '../module-show-pic/module-show-pic.vue'
   export default {
+    name: 'module-hot',
     data () {
       return {
         titleMore: {name: '热门小说', more: false},
