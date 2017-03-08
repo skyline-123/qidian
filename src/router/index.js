@@ -1,15 +1,14 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import VueRouter from 'vue-router'
+import index from '../page/index.vue'
+import nav from '../page/navigation.vue'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
   routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    }
+    { path: '/index', name: 'index', component: index },
+    { path: '/nav', name: 'navigation', component: nav },
+    { path: '*', redirect: '/index' }
   ]
 })
