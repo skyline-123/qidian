@@ -18,7 +18,7 @@ flexible.rem = win.rem = rem;
 ## 依赖
 - iscroll
 - vue
-- vue-awesome-swiper 
+- vue-awesome-swiper
 - vue-router
 
 ### iscroll
@@ -46,7 +46,7 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 
 ## 组件抽象
 |序号|模块|功能|
-|---|---|---| 
+|---|---|---|
 |01|header|头部|
 |02|footer|尾部|
 |03|module-title|每个模块的标题,props为titleMore对象,传入name和more属性|
@@ -56,11 +56,11 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 |07|module-free|组合模块:限时免费|
 |08|module-charts|组合模块:排行榜|
 |09|module-new|组合模块:新书抢鲜|
-|10|module-catalogue|组合模块: 分类推荐|
+|10|module-category|组合模块: 分类推荐|
 |11|module-anime|组合模块: 二次元|
 |12|module-like|组合模块: 猜你喜欢(精选专题)|
 |13|count-down|显示免费中的倒计时模块(本地)|
-|14|carousel.vueheader|中的轮播图模块|
+|14|carousel.vue|header中的轮播图模块|
 
 ##开发中的功能
 
