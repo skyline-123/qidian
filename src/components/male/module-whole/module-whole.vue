@@ -7,8 +7,8 @@
   </div>
 </template>
 <script>
-  import title from '../module-title/module-title.vue'
-  import vertical from '../module-vertical-pic/module-vertical-pic.vue'
+  import title from '../../common/module-title/module-title.vue'
+  import vertical from '../../common/module-vertical-pic/module-vertical-pic.vue'
   export default {
     name: 'module-whole',
     data () {

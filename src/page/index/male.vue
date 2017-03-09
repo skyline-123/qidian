@@ -31,15 +31,15 @@
 </template>
 
 <script>
-  import carousel from '../../components/carousel.vue'
-  import hot from '../../components/module-hot/module-hot.vue'
-  import free from '../../components/module-free/module-free.vue'
-  import charts from '../../components/module-charts/module-charts.vue'
-  import vnew from '../../components/module-new/module-new.vue'
-  import whole from '../../components/module-whole/module-whole.vue'
-  import category from '../../components/module-category/module-category.vue'
-  import anime from '../../components/module-anime/module-anime.vue'
-  import like from '../../components/module-like/module-like.vue'
+  import carousel from '../../components/common/carousel.vue'
+  import hot from '../../components/male/module-hot/module-hot.vue'
+  import free from '../../components/male/module-free/module-free.vue'
+  import charts from '../../components/male/module-charts/module-charts.vue'
+  import vnew from '../../components/male/module-new/module-new.vue'
+  import whole from '../../components/male/module-whole/module-whole.vue'
+  import category from '../../components/male/module-category/module-category.vue'
+  import anime from '../../components/male/module-anime/module-anime.vue'
+  import like from '../../components/male/module-like/module-like.vue'
   export default {
     name: 'index-page',
     data () {

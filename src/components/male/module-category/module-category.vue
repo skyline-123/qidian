@@ -31,8 +31,8 @@
   </div>
 </template>
 <script>
-  import title from '../module-title/module-title.vue'
-  import pic from '../module-show-pic/module-show-pic.vue'
+  import title from '../../common/module-title/module-title.vue'
+  import pic from '../../common/module-show-pic/module-show-pic.vue'
   export default {
     name: 'module-category',
     data () {

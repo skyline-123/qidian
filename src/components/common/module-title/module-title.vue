@@ -16,7 +16,7 @@
   }
 </script>
 <style>
-  @import '../../common/css/font/方正中粗雅宋_GBK.css';
+  @import '../../../common/css/font/方正中粗雅宋_GBK.css';
   .module-title {
     position: relative;
     box-sizing: border-box;
@@ -56,7 +56,7 @@
     width: 0.234375rem;
     height: 0.46875rem;
     margin-left: 16px;
-    background: url("./title-more.png") no-repeat;
+    background: url("title-more.png") no-repeat;
     background-size: 0.234375rem 0.46875rem;
   }
 </style>

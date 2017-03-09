@@ -45,7 +45,7 @@
     methods: {
       back () {
         if (/(iPhone|iPad|iPod)/i.test(navigator.userAgent)) {
-          window.location.href = window.document.referrer  //解决iPhone的后退问题
+          window.location.href = window.document.referrer  // 解决iPhone的后退问题
         } else { window.history.go(-1) }
       }
     },

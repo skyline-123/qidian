@@ -1,10 +1,10 @@
 <template>
   <swiper :options="swiperOption" ref="mySwiperA">
     <!-- 幻灯内容 -->
-    <swiper-slide><img src="./header/header-carousel-1.jpeg" alt=""></swiper-slide>
-    <swiper-slide><img src="./header/header-carousel-2.jpeg" alt=""></swiper-slide>
-    <swiper-slide><img src="./header/header-carousel-3.jpeg" alt=""></swiper-slide>
-    <swiper-slide><img src="./header/header-carousel-4.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="../header/header-carousel-1.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="../header/header-carousel-2.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="../header/header-carousel-3.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="../header/header-carousel-4.jpeg" alt=""></swiper-slide>
     <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
 </template>
