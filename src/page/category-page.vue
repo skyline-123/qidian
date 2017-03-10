@@ -1,7 +1,7 @@
 <template>
   <div class="category-page">
     <p>哦,施工地带,被你看到啦~~~</p>
-    <p>对这个项目有兴趣?一起合作开发吧怕</p>
+    <p>对这个项目有兴趣?一起合作开发吧!</p>
     <a href="https://github.com/skyline-123/qidian">猛戳这里</a>
     <hr>
     <span @click="back">返回首页</span>
