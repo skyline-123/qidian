@@ -4,6 +4,9 @@
 
 ## demo
 [请用手机查看获取最佳浏览效果](https://skyline-123.github.io/)
+![demo1](https://d3uepj124s5rcx.cloudfront.net/items/3d2p0c1F1N093v0a053w/demo1.gif?v=53c25946)
+![demo2](https://d3uepj124s5rcx.cloudfront.net/items/2f3C1Q161B240y0U1g2L/demo2.gif?v=7145ffaa)
+![demo3](https://d3uepj124s5rcx.cloudfront.net/items/2y3U0z061e411Y162q0s/demo3.gif?v=69ee8d16)
 
 ## 移动端自适应方案
 选择的是某宝的flexible库. [flexible](https://github.com/amfe/lib-flexible)
