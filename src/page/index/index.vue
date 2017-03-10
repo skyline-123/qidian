@@ -49,29 +49,38 @@
         var disY = 0
         content.addEventListener('touchstart', function (ev) {
           ev.stopPropagation()
+          ev.preventDefault()
           var oEvent = ev || event
-          disX = oEvent.touches[0].clientX - oDiv.offsetLeft
+          disX = oEvent.touches[0].clientX - content.offsetLeft
           content.addEventListener('touchmove', handlermove, false)
           content.addEventListener('touchend', handlerend, false)
           function handlermove (ev) {
             var oEvent = ev || event
             var l = oEvent.touches[0].clientX - disX
+            if (l < 2) l = 2
             content.style.right = ''
             content.style.left = l + 'px'
           }
           function handlerend () {
-            TweenMax.to(content, 0.3, {
-              right: '-8.6525rem',
-              onComplete () {
-                info.style.display = 'none'
-              }
-            })
+            // var conWidth = content.offsetWidth
+            // var conLeft = content.offsetLeft
+            // var cliWidth = document.body.clientWidth || document.documentElement.clientWidth
+            // var conRight = conWidth - (cliWidth - conLeft)
+            // content.style.right = conRight + 'px'
+            if (parseFloat(content.style.left) >= 2) {
+              TweenMax.to(content, 0.3, {
+                left: '10rem',
+                onComplete () {
+                  info.style.display = 'none'
+                }
+              })
+            }
           }
         }, false)
         info.addEventListener('touchstart', function (ev) {
           ev.preventDefault()
           TweenMax.to(content, 0.3, {
-            right: '-8.6525rem',
+            left: '10rem',
             onComplete () {
               info.style.display = 'none'
             }
@@ -82,7 +91,7 @@
         function handlerstart (ev) {
           info.style.display = 'block'
           TweenMax.to(content, 0.3, {
-            right: 0
+            left: '1.4375rem'
           })
           var oEvent = ev || event
           disX = oEvent.touches[0].clientX - oDiv.offsetLeft
@@ -164,7 +173,7 @@
     height: 100%;
     background: #fff;
     opacity: 1;
-    right: -8.6525rem;
+    left: 10rem;
   }
   .recent-info .content h3 {
     text-align: center;
