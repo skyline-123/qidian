@@ -107,6 +107,7 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 
 ## 开发中的功能
 
+**开发中的功能在dev分支,demo中也会同步更新,master分支更新得看进度**
 1. header中的导航页面
 2. 女生页面
 
