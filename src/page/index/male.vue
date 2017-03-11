@@ -10,7 +10,7 @@
     </div>
     <div class="h-navigation">
       <div class="nav-single" v-for="nav in navigations">
-        <router-link to="/category">
+        <router-link to="/category/male">
           <img :src="nav.url" :alt="nav.name">
           <h2>{{nav.name}}</h2>
         </router-link>
