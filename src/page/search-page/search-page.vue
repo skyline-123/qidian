@@ -3,7 +3,7 @@
     <div class="search-top">
       <span class="search-logo"></span>
       <input type="text" :placeholder="randomKeyword" ref="search-input">
-      <a href="#nowhere" @click="back">取消</a>
+      <a href="javascript:window.history.go(-1)">取消</a>
     </div>
     <div class="search-title">
       大家都在搜
@@ -42,13 +42,13 @@
         return this.keyword[parseInt(Math.random() * (this.keyword.length))]
       }
     },
-    methods: {
-      back () {
-        if (/(iPhone|iPad|iPod)/i.test(navigator.userAgent)) {
-          window.location.href = window.document.referrer  // 解决iPhone的后退问题
-        } else { window.history.go(-1) }
-      }
-    },
+    // methods: {
+    //   back () {
+    //     if (/(iPhone|iPad|iPod)/i.test(navigator.userAgent)) {
+    //       window.location.href = window.document.referrer  // 解决iPhone的后退问题
+    //     } else { window.history.go(-1) }
+    //   }
+    // },
     mounted () {
       this.$refs['search-input'].focus()
     }
