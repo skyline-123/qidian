@@ -17,9 +17,6 @@
           <img src="./topic-2.jpeg" alt="topic-2.jpeg">
           <img src="./topic-3.jpeg" alt="topic-3.jpeg">
           <img src="./topic-4.jpeg" alt="topic-4.jpeg">
-          <div class="login">
-            登录后获得更多特色功能<span class="dot">·</span><a href="#nowhere">立即登录</a>
-          </div>
         </div>
       </div>
       <!-- end of bottom -->
@@ -71,7 +68,6 @@
     margin: 0 auto;
     overflow: hidden;
     padding: 0 0.25rem;
-    border-bottom: 2px solid #F2F2F4;
   }
   .module-like .bottom img {
     display: block;
@@ -79,16 +75,5 @@
     margin: 0.234375rem;
     width: 4.25rem;
     height: 2.09375rem;
-  }
-  .module-like .bottom .login {
-    line-height: 1.5rem;
-    text-align: center;
-    font-size: 0.46875rem;
-  }
-  .module-like .bottom .login .dot {
-    margin: 0.0625rem;
-  }
-  .module-like .bottom .login a {
-    color: #4B76CE;
   }
 </style>

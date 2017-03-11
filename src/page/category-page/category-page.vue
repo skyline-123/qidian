@@ -17,6 +17,7 @@
       <div class="drop-down-bg" ref="dropDownBg"></div>
     </div>
     <router-view></router-view>
+    <v-footer></v-footer>
   </div>
 </template>
 
@@ -24,6 +25,7 @@
   import dropDown from '../../components/common/drop-down/drop-down.vue'
   import {TweenMax} from 'gsap'
   import male from './male.vue'
+  import footer from '../../components/footer/footer.vue'
   export default {
     name: 'category-page',
     data () {
@@ -33,7 +35,8 @@
     },
     components: {
       'drop-down': dropDown,
-      male
+      male,
+      'v-footer': footer
     },
     methods: {
       dropDown () {

@@ -1,5 +1,8 @@
 <template>
   <div class="footer">
+    <div class="login">
+      登录后获得更多特色功能<span class="dot">·</span><a href="#nowhere">立即登录</a>
+    </div>
     <div class="footer-wrapper">
       <div class="footer-link">
         <a href="#nowhere">客户端</a>
@@ -42,5 +45,17 @@
   .footer span, .footer .copy {
     font-size: 0.375rem;
     color: #D1D1D3;
+  }
+  .footer .login {
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.46875rem;
+    border-bottom: 2px solid #F2F2F4;
+  }
+  .footer .login .dot {
+    margin: 0.0625rem;
+  }
+  .footer .login a {
+    color: #4B76CE;
   }
 </style>
