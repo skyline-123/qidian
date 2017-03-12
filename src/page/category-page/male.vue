@@ -192,6 +192,7 @@
     line-height: 1.25rem;
   }
   .content .c-title .amount {
+    display: inline-block;
     color: #848B9D;
     font-size: 0.40625rem;
     margin-left: 0.28125rem;
