@@ -66,8 +66,8 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 	|  |  |--module-show-pic
 	|  |  |--module-title
 	|  |  |--module-vertical-pic
-        |  |  |--drop-down
-        |  |  |--nav-top
+    |  |  |--drop-down
+    |  |  |--nav-top
 	|  |  |--carousel.vue
 	|  |--header
 	|  |--footer
@@ -83,11 +83,11 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 	|--page
 	|  |--index
 	|  |--search-page
-        |  |--category-page
-        |  |--charts-page
-        |  |--frer-page
-        |  |--whole-page
-        |  |--author-page
+    |--category-page
+    |  |--charts-page
+    |  |--free-page
+    |  |--whole-page
+    |  |--author-page
 	|--router
 	   
 
