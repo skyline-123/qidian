@@ -10,7 +10,7 @@
     </div>
     <div class="h-navigation">
       <div class="nav-single" v-for="nav in navigations">
-        <router-link to="/category/male">
+        <router-link :to="nav.route">
           <img :src="nav.url" :alt="nav.name">
           <h2>{{nav.name}}</h2>
         </router-link>
@@ -77,11 +77,11 @@
     created () {
       this.keyword = ['战歌之王', '超魔构筑师', '无敌天下', '网络神豪', '圣墟']
       this.navigations = [
-        {url: require('../../components/header/header-nav-1.png'), name: '分类'},
-        {url: require('../../components/header/header-nav-2.png'), name: '排行榜'},
-        {url: require('../../components/header/header-nav-3.png'), name: '免费'},
-        {url: require('../../components/header/header-nav-4.png'), name: '完本'},
-        {url: require('../../components/header/header-nav-5.png'), name: '大神'}
+        {url: require('../../components/header/header-nav-1.png'), name: '分类', route: '/category/male'},
+        {url: require('../../components/header/header-nav-2.png'), name: '排行榜', route: '/charts/male'},
+        {url: require('../../components/header/header-nav-3.png'), name: '免费', route: '/free/male'},
+        {url: require('../../components/header/header-nav-4.png'), name: '完本', route: '/whole/male'},
+        {url: require('../../components/header/header-nav-5.png'), name: '大神', route: '/author-page/male'}
       ]
     }
   }
