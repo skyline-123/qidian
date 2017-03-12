@@ -61,7 +61,7 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 	|  |--css/  
 	|     |--font  
 	|--components/
-	|  |--common
+	|  |--common/
 	|  |  |--count-down
 	|  |  |--module-show-pic
 	|  |  |--module-title
@@ -71,7 +71,7 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 	|  |  |--carousel.vue
 	|  |--header
 	|  |--footer
-	|  |--male
+	|  |--male/
 	|     |--module-anime
 	|     |--module-category
 	|     |--module-charts
@@ -80,10 +80,10 @@ iscroll有许多设计缺陷.其中的preventDefault()默认阻止了所有用�
 	|     |--module-like
 	|     |--module-new
 	|     |--module-whole
-	|--page
+	|--page/
 	|  |--index
 	|  |--search-page
-    |--category-page
+    |--category-page/
     |  |--charts-page
     |  |--free-page
     |  |--whole-page
