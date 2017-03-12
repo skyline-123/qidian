@@ -7,7 +7,12 @@ import searchPage from '../page/search-page/search-page.vue'
 import category from '../page/category-page/category-page.vue'
 import cMale from '../page/category-page/male.vue'
 import cFemale from '../page/category-page/female.vue'
-
+import charts from '../page/charts-page/charts-page.vue'
+import chMale from '../page/charts-page/male.vue'
+import chFemale from '../page/charts-page/female.vue'
+import free from '../page/free-page/free-page.vue'
+import whole from '../page/whole-page/whole-page.vue'
+import author from '../page/author-page/author-page.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -42,9 +47,39 @@ const routes = [
     ]
   },
   {
+    path: '/charts',
+    name: 'chartsPage',
+    component: charts,
+    children: [
+      {
+        path: 'male',
+        component: chMale
+      },
+      {
+        path: 'female',
+        component: chFemale
+      }
+    ]
+  },
+  {
     path: '/search',
-    name: 'searchPace',
+    name: 'searchPage',
     component: searchPage
+  },
+  {
+    name: 'freePage',
+    path: '/free',
+    component: free
+  },
+  {
+    name: 'wholePage',
+    path: '/whole',
+    component: whole
+  },
+  {
+    name: 'authorPage',
+    path: '/author',
+    component: author
   },
   {
     path: '*',
