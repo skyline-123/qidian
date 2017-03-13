@@ -23,6 +23,9 @@
     components: {
       'nav-top': top,
       'v-footer': footer
+    },
+    mounted () {
+      window.onscroll = null
     }
   }
 </script>
