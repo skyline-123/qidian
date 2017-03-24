@@ -12,7 +12,7 @@
   export default {
     name: 'count-down',
     mounted () {
-      countTime(this.$refs.d, this.$refs.h, this.$refs.m, this.$refs.s, '2017/3/14,15:47:11')
+      countTime(this.$refs.d, this.$refs.h, this.$refs.m, this.$refs.s, '2017/10/24,23:57:11')
     }
   }
 </script>

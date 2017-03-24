@@ -26,8 +26,13 @@ function countTime (oDay, oHour, oMinute, oSecond, endTime) {
     var end = new Date(endTime)
     var now = new Date()
     var left = parseInt((end.getTime() - now.getTime()) / 1000)
-    if (left === 0) {
-      return false
+    if (left <= 0) {
+      return {
+        d: '00',
+        h: '00',
+        m: '00',
+        s: '00'
+      }
     } else {
       return {
         d: addZero(parseInt(left / 24 / 60 / 60)),
